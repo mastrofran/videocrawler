@@ -35,7 +35,7 @@ Add VideoCrawler to your project:
 go get github.com/mastrofran/videocrawler@latest
 ```
 
-and import it to your project:
+and import it into your project:
 ```
 import (
     .
