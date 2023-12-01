@@ -3,7 +3,7 @@ module github.com/mastrofran/videocrawler
 go 1.18
 
 require (
-	github.com/chromedp/cdproto v0.0.0-20231011050154-1d073bb38998
+	github.com/chromedp/cdproto v0.0.0-20231126232103-8e31ff06e23b
 	github.com/chromedp/chromedp v0.9.3
 )
 
