@@ -12,7 +12,7 @@ import (
 	"github.com/chromedp/chromedp"
 )
 
-func getVideo(url string) []string {
+func GetVideo(url string) []string {
 	ctx, cancel := chromedp.NewContext(context.Background())
 	defer cancel()
 
