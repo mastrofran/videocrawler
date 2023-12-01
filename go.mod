@@ -1,4 +1,4 @@
-module videocrawler
+module github.com/mastrofran/videocrawler
 
 go 1.18
 
