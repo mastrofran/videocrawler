@@ -2,7 +2,6 @@ package videocrawler
 
 import (
 	"context"
-	"fmt"
 	"log"
 	"regexp"
 	"strings"
@@ -48,6 +47,6 @@ func GetVideo(url string) []string {
 	for _, element := range found {
 		links = append(links, replacer.Replace(element))
 	}
-	fmt.Println("crawled element: ", url, "found: ", links)
+
 	return links
 }
