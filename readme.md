@@ -47,7 +47,7 @@ import (
 
 ## Notes
 
-- VideoCrawler is a lightweight library that performs one function and one function only: to scrape mp4 files embedded directly in a webpage HTML. It takes a url (string) as the only argument and returns an array (with elements of type string) of video links found on the given url.
+- VideoCrawler is a lightweight library that performs one function and one function only: to scrape mp4 files embedded directly in a webpage HTML. It takes a url (type string) as the only argument and returns an array (with elements of type string) of video links found on the given url.
 
 - This library currently does not work on websites that deliver videos using the blob (Binary Large OBject) protocol, nor will it parse videos that are rendered via JW Player (for now).
 
