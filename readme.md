@@ -38,10 +38,10 @@ go get github.com/mastrofran/videocrawler@latest
 and import it to your project:
 ```
 import (
-.
     .
     .
-"github.com/mastrofran/videocrawler"
+    .
+    "github.com/mastrofran/videocrawler"
 )
 ```
 
